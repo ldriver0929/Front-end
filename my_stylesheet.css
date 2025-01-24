@@ -1,4 +1,4 @@
-    h1 {
+h1, p {
     text-align: center;
     color: black;  
 }
@@ -6,6 +6,7 @@
 body {
   color: black;
   background-color: lightslategrey;
+  font-family: 'Roboto';
 } 
 
 .center {
