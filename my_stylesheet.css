@@ -15,7 +15,7 @@ body {
   height: 120px;
   background-image: url('grey_gecko.webp');
   background-repeat: no-repeat;
-  width: auto;
-  background-size: 100% 100%;
+/*  width: auto;
+/* background-size: 100% 100%;
 }
 
