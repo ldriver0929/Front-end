@@ -25,12 +25,9 @@ body {
   height: 40px;
 }
 
-
-
-
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: -7px;
   padding: 0;
   overflow: hidden;
   background-color: #333;
