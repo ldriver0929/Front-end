@@ -1,4 +1,4 @@
-h1 {
+    h1 {
     text-align: center;
     color: black;  
 }
@@ -10,7 +10,7 @@ body {
 
 .center {
   display: block;
-  margin: -8px;
+  margin: 8px;
   padding: 0px 0px;
   height: 80px;
   border: 5px solid black;
