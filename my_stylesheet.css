@@ -6,10 +6,13 @@ h1, p {
 body {
   color: black;
   background-color: lightslategrey;
-  font-family: 'Roboto';
-  font-size: 56px;
+  font-size: 16px;
 } 
 
+.message {
+  font-family: 'Roboto';
+  font-size: 56px;
+}
 .center {
   display: block;
   margin: -8px;
