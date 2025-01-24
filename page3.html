@@ -1,35 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
-<title>Page Title</title>
+<title>A test website</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<style>
-  h1 {
-    text-align: center;
-    color: black;  
-}
-
-body {
-  color: blue;
-  background-color: grey;
-} 
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: 200px;
-  background-image: url('grey_gecko.webp');
-}
-</style>
+<link rel="stylesheet" href="./my_stylesheet.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 <script src=""></script>
-<body>
-<header>
 
-<div class="center"></div>
-</header>
-<p><a href="index.html">Home</a><a href="page2">Page 2</a></p> 
-<h1>Page 3!</h2>
+<body>
+<p id="demo">Fetch a file to change this text.</p>
+
+<script>
+getText("ajax_info.txt");
+
+async function getText(file) {
+  let myObject = await fetch(file);
+  let myText = await myObject.text();
+  document.getElementById("demo").innerHTML = myText;
+}
+</script>
+
 </body>
+
 </html> 
